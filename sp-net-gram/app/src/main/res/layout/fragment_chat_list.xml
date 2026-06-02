@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background">
+
+    <!-- Top bar: avatar + title + diamond badge -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:paddingHorizontal="16dp"
+        android:background="@color/surface">
+
+        <ImageView
+            android:id="@+id/iv_account_avatar"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_default_avatar"
+            android:background="@drawable/circle_avatar_bg"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/tv_account_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/iv_account_avatar"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="12dp"
+            android:text="SP NET GRAM"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/text_primary"/>
+
+        <View
+            android:id="@+id/view_diamond_badge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:visibility="gone"/>
+
+    </RelativeLayout>
+
+    <!-- Search bar -->
+    <EditText
+        android:id="@+id/et_search"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="12dp"
+        android:paddingHorizontal="16dp"
+        android:hint="Search…"
+        android:textSize="14sp"
+        android:background="@drawable/search_bar_bg"
+        android:inputType="text"
+        android:imeOptions="actionSearch"
+        android:singleLine="true"/>
+
+    <!-- Folder tabs -->
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab_folders"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        app:tabMode="scrollable"
+        app:tabGravity="start"
+        app:tabIndicatorColor="@color/primary"
+        app:tabSelectedTextColor="@color/primary"
+        app:tabTextColor="@color/text_secondary"
+        app:tabTextAppearance="@style/TextAppearance.SPNetGram.Caption"/>
+
+    <!-- Chat list -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_chats"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clipToPadding="false"
+        android:paddingBottom="8dp"/>
+
+    <!-- FAB for new chat -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_new_chat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_edit"
+        app:backgroundTint="@color/primary"
+        app:tint="@color/text_on_primary"/>
+
+</LinearLayout>

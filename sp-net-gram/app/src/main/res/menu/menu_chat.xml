@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_search"  android:title="Search"        android:showAsAction="never"/>
+    <item android:id="@+id/action_mute"    android:title="Mute"          android:showAsAction="never"/>
+    <item android:id="@+id/action_clear"   android:title="Clear History" android:showAsAction="never"/>
+</menu>

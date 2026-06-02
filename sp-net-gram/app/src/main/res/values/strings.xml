@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SP NET GRAM</string>
+    <string name="app_description">Advanced Telegram Client</string>
+
+    <!-- Auth -->
+    <string name="auth_welcome">Welcome to SP NET GRAM</string>
+    <string name="auth_phone_hint">Your phone number</string>
+    <string name="auth_code_hint">Verification code</string>
+    <string name="auth_password_hint">Cloud password</string>
+    <string name="auth_continue">Continue</string>
+    <string name="auth_resend_code">Resend Code</string>
+
+    <!-- Navigation -->
+    <string name="nav_chats">Chats</string>
+    <string name="nav_contacts">Contacts</string>
+    <string name="nav_calls">Calls</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Chat -->
+    <string name="chat_type_message">Message…</string>
+    <string name="chat_send">Send</string>
+    <string name="chat_silent_send">Send Silently</string>
+    <string name="chat_schedule">Schedule Message</string>
+    <string name="chat_ai_options">AI Features</string>
+    <string name="chat_summarize">Summarize Chat</string>
+    <string name="chat_translate">Translate</string>
+    <string name="chat_smart_replies">Smart Replies</string>
+    <string name="chat_rewrite">Rewrite Message</string>
+    <string name="chat_folder_all">All</string>
+    <string name="chat_folder_personal">Personal</string>
+    <string name="chat_folder_work">Work</string>
+    <string name="chat_folder_channels">Channels</string>
+    <string name="chat_folder_bots">Bots</string>
+
+    <!-- AI -->
+    <string name="ai_summarizing">Summarizing…</string>
+    <string name="ai_translating">Translating…</string>
+    <string name="ai_rewriting">Rewriting…</string>
+    <string name="ai_generating_replies">Generating replies…</string>
+    <string name="ai_api_key_required">Set your OpenAI API key in Settings → AI Features</string>
+    <string name="ai_cost_coins">This uses %1$d SP Coins</string>
+    <string name="ai_voice_note_transcribing">Transcribing voice note…</string>
+    <string name="ai_voice_note_summarizing">Summarizing…</string>
+
+    <!-- Rewrite styles -->
+    <string name="rewrite_formal">More Formal</string>
+    <string name="rewrite_casual">More Casual</string>
+    <string name="rewrite_shorter">Shorter</string>
+    <string name="rewrite_longer">More Detailed</string>
+    <string name="rewrite_polite">More Polite</string>
+    <string name="rewrite_assertive">More Direct</string>
+    <string name="rewrite_funny">Funnier</string>
+
+    <!-- SP Diamond -->
+    <string name="diamond_title">SP Diamond</string>
+    <string name="diamond_subtitle">Unlock the full SP NET GRAM experience</string>
+    <string name="diamond_monthly_label">Monthly</string>
+    <string name="diamond_yearly_label">Yearly</string>
+    <string name="diamond_yearly_save">Save 40%</string>
+    <string name="diamond_badge">💎 Diamond</string>
+    <string name="diamond_active">You have SP Diamond!</string>
+    <string name="diamond_feature_ai">All AI Features Unlimited</string>
+    <string name="diamond_feature_themes">Exclusive Premium Themes</string>
+    <string name="diamond_feature_badge">Unique Diamond Badge</string>
+    <string name="diamond_feature_stickers">Unlimited Animated Stickers</string>
+    <string name="diamond_feature_folders">Advanced Folder Management</string>
+    <string name="diamond_feature_no_ads">No Ads</string>
+    <string name="diamond_feature_support">Priority Support</string>
+
+    <!-- SP Coins -->
+    <string name="coins_title">SP Coins</string>
+    <string name="coins_balance">%1$d SP Coins</string>
+    <string name="coins_earn_daily">Daily Reward: +%1$d coins</string>
+    <string name="coins_earn_referral">Referral Bonus: +%1$d coins</string>
+    <string name="coins_claimed">Reward claimed!</string>
+    <string name="coins_already_claimed">Already claimed today. Come back tomorrow!</string>
+    <string name="coins_insufficient">Not enough SP Coins. Need %1$d, have %2$d.</string>
+    <string name="coins_referral_code">Your referral code: %1$s</string>
+    <string name="coins_share_referral">Share Referral Code</string>
+    <string name="coins_enter_code">Have a referral code? Enter it here</string>
+
+    <!-- Theme -->
+    <string name="theme_title">Theme</string>
+    <string name="theme_dark_mode">Dark Mode</string>
+    <string name="theme_glassmorphism">Glassmorphism Effects</string>
+    <string name="theme_accent_color">Accent Color</string>
+    <string name="theme_bubble_style">Chat Bubble Style</string>
+    <string name="theme_background">Chat Background</string>
+    <string name="theme_preset_default">Default Blue</string>
+    <string name="theme_preset_midnight">Midnight</string>
+    <string name="theme_preset_rose_gold">Rose Gold</string>
+    <string name="theme_preset_forest">Forest Green</string>
+    <string name="theme_preset_sunset">Sunset Orange</string>
+    <string name="theme_preset_arctic">Arctic</string>
+    <string name="theme_preset_purple">Purple Haze</string>
+    <string name="theme_preset_custom">Custom</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_appearance">Appearance</string>
+    <string name="settings_premium">SP Premium</string>
+    <string name="settings_ai">AI Features</string>
+    <string name="settings_privacy">Privacy &amp; Security</string>
+    <string name="settings_notifications">Notifications</string>
+    <string name="settings_analytics">Analytics</string>
+    <string name="settings_analytics_description">Help improve SP NET GRAM by sharing anonymous usage data. No message content is ever collected.</string>
+    <string name="settings_app_lock">App Lock</string>
+    <string name="settings_biometric">Use Biometric</string>
+    <string name="settings_accounts">Accounts</string>
+    <string name="settings_add_account">Add Account</string>
+    <string name="settings_version">Version %1$s</string>
+    <string name="settings_about">About SP NET GRAM</string>
+    <string name="settings_gdpr">Privacy Policy &amp; GDPR</string>
+
+    <!-- Privacy -->
+    <string name="privacy_title">Privacy &amp; Security</string>
+    <string name="privacy_last_seen">Last Seen</string>
+    <string name="privacy_profile_photo">Profile Photo</string>
+    <string name="privacy_phone_number">Phone Number</string>
+    <string name="privacy_forwards">Forwards</string>
+    <string name="privacy_calls">Calls</string>
+    <string name="privacy_two_step">Two-Step Verification</string>
+    <string name="privacy_passcode">Passcode Lock</string>
+    <string name="privacy_delete_account">Delete Account</string>
+
+    <!-- GDPR -->
+    <string name="gdpr_title">Privacy &amp; Data</string>
+    <string name="gdpr_intro">SP NET GRAM respects your privacy.</string>
+    <string name="gdpr_analytics_section">Analytics (Optional)</string>
+    <string name="gdpr_analytics_body">We may collect anonymous usage data (active sessions, device type, app version) to improve the app. We NEVER collect message content, contact names, or any personally identifiable information.</string>
+    <string name="gdpr_accept">I Understand &amp; Accept</string>
+    <string name="gdpr_decline">No Analytics</string>
+
+    <!-- Errors -->
+    <string name="error_network">No internet connection</string>
+    <string name="error_unknown">Something went wrong. Please try again.</string>
+    <string name="error_auth_failed">Authentication failed</string>
+    <string name="error_billing_unavailable">Billing not available on this device</string>
+</resources>
